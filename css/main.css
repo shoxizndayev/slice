@@ -1,0 +1,65 @@
+body {
+	background-color: rgb(204, 200, 195);
+}
+
+.film__form {
+	margin-left: 50%;
+	margin-bottom: 30px;
+}
+
+.film-select {
+	border-radius: 8px;
+	padding: 6px;
+	width: 150px;
+	background-color: seashell;
+}
+
+.film__button {
+	border-radius: 8px;
+	padding: 6px;
+	width: 100px;
+	background-color: rgb(206, 193, 184);
+}
+
+.films__list {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.film {
+	border-radius: 16px;
+	background-color: snow;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	padding: 20px;
+	width: 350px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.film__overview {
+	text-align: center;
+}
+
+.film__time {
+	margin: 10px;
+}
+
+.film__genres {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	color: teal;
+}
+
+.film-genre {
+	text-decoration: underline;
+	margin-left: 10px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/main.css" />
+		<title>Films</title>
+	</head>
+	<body>
+		<form class="film__form">
+			<select class="film-select">
+			</select>
+
+
+			<button class="film__button" type="submit">Filter</button>
+		</form>
+		<ul class="films__list"></ul>
+
+		<form class="film__slice">
+			<button class="slice__button--next" type="submit">
+				next
+			</button>
+		</form>
+
+		<template id="film-template">
+			<li class="film">
+				<h3 class="film__title">Shazam</h3>
+				<img
+					class="film__image"
+					src="https://image.tmdb.org/t/p/w500/xnopI5Xtky18MPhK40cZAGAOVeV.jpg"
+					alt="Shazam's poster"
+					width="200"
+					height="300"
+				/>
+
+				<p class="film__overview"></p>
+
+				<time class="film__time"></time>
+
+				<ul class="film__genres"></ul>
+			</li>
+		</template>
+
+		<template id="film-genre-template">
+			<li class="film-genre">Action</li>
+		</template>
+
+		<script src="js/films.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
